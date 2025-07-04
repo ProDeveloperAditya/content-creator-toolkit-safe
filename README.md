@@ -31,5 +31,5 @@ Built using free, open-source tools including [OpenRouter](https://openrouter.ai
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/content-creator-toolkit.git
+git clone https://github.com/ProDeveloperAditya/content-creator-toolkit-safe
 cd content-creator-toolkit
