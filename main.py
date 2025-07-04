@@ -3,6 +3,9 @@ import os
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
+if not API_KEY:
+    st.error("❌ API Key not loaded. Check your .env file and restart.")
+
 
 
 
@@ -10,12 +13,15 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Content Creator Toolkit", page_icon="🎥")
-API_KEY = "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"
+#API_KEY = "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"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "mistralai/mistral-7b-instruct"
 
 # starting API calls
 def get_ai_response(prompt):
+    # print("Response status:", res.status_code)
+    # print("Response body:", res.text)
+
     headers={
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
