@@ -18,7 +18,7 @@ Built using free, open-source tools including [OpenRouter](https://openrouter.ai
 
 ---
 
-## 🛠️ Technologies Used
+## Tech Used
 
 - Python 
 - Streamlit 
