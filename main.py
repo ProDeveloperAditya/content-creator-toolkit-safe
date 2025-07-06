@@ -43,7 +43,7 @@ st.title("🎬 Content Creator Toolkit")
 st.write("Boost your content creation with AI-generated titles, descriptions, and motivational messages.")
 
 # rest of the project
-st.header("🎯 YouTube Title & Description Generator")
+st.header("1️⃣ YouTube Title & Description Generator")
 video_topic = st.text_input("What is your video about?")
 
 if st.button("Generate YT video Titles & Description"):
@@ -79,7 +79,7 @@ if st.button("Generate YT video Titles & Description"):
 
 # Additional Motivation Generator for creators 
 st.markdown("---")
-st.header("🌟 Daily Motivation Generator")
+st.header("2️⃣ Daily Motivation Generator")
 st.write("Select how you're feeling or type your own mood/situation.")
 
 given_moods = [
