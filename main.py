@@ -13,7 +13,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Content Creator Toolkit", page_icon="🎥")
-#API_KEY = "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"
+#API_KEY = "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" This one is expired API
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "mistralai/mistral-7b-instruct"
 
