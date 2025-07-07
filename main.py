@@ -19,8 +19,6 @@ MODEL = "mistralai/mistral-7b-instruct"
 
 # starting API calls
 def get_ai_response(prompt):
-    # print("Response status:", res.status_code)
-    # print("Response body:", res.text)
 
     headers={
         "Authorization": f"Bearer {API_KEY}",
